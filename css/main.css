@@ -92,8 +92,36 @@ textarea {
    ========================================================================== */
 
 
+#wrapper {
+    width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white; 
+}
 
+#primary_links ul {
+    text-align: center;
+    display: inline;
+    margin left: auto;
+    margin right: auto;
+    margin top: 0px;
+    margin-bottom: 0px;
+}
 
+#content h2 {
+    text-align: center;
+    font-family: cursive;
+}
+
+#branding {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 980px;
+    height: 72px;
+    background-color: #339966; 
+}
 
 
 
