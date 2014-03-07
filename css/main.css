@@ -98,14 +98,12 @@ textarea {
     margin-right: auto;
     background-color: white; 
 }
-
-#primary_links ul {
-    text-align: center;
+#primary_links {
     display: inline;
-    margin left: auto;
-    margin right: auto;
-    margin top: 0px;
-    margin-bottom: 0px;
+}
+#primary_links ul {
+    display: unlist; 
+    display: inline-block;
 }
 
 #content h2 {
@@ -119,8 +117,9 @@ textarea {
     margin-top: 10px;
     margin-bottom: 10px;
     width: 980px;
-    height: 72px;
-    background-color: #339966; 
+    height: 30px;
+    background-color: #339966;
+    display: block;    
 }
 
 
