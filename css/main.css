@@ -102,6 +102,9 @@ textarea {
 
 #primary_links {
    background-color: #339966;
+   position: absolute;
+   right: 0px;
+   left: 0px;
 }
 #primary_links li {
     margin-bottom: 20px;
@@ -111,11 +114,16 @@ textarea {
     position: relative;
     font-family: opensans semibold;
     font-size: larger;
+    margin-left: 143px;
     
+}
+#primary_links li.first {
+    
+    margin-left: 354px;
 }
 
 #content h2 {
-    margin-top: 50px;
+    margin-top: 100px;
     margin-bottom: 0px;
     text-align: center;
     font-family: helvetica bold;
@@ -137,7 +145,7 @@ textarea {
         
 }
 
-#grey {
+#table1 {
     margin-top: 200px;
     margin-bottom: 200px;
     margin-left: 150px;
@@ -148,8 +156,13 @@ textarea {
     bottom: 20px;
 }
 
+#blockblue {
+    float: left;
+}
 
-
+#blockred {
+    float: left;
+}
 
 
 
