@@ -93,24 +93,40 @@ textarea {
 
 
 #wrapper {
-    width: 980px;
+    width: 1200px;
+    height: 3300px;
     margin-left: auto;
     margin-right: auto;
-    background-color: white; 
+    background-color: #eceeed; 
 }
+
 #primary_links {
-    display: inline;
+   background-color: #339966;
 }
-#primary_links ul {
-    display: unlist; 
-    display: inline-block;
+#primary_links li {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: auto;
+    display: inline;
+    position: relative;
+    font-family: opensans semibold;
+    font-size: larger;
+    
 }
 
 #content h2 {
+    margin-top: 50px;
+    margin-bottom: 0px;
     text-align: center;
-    font-family: cursive;
+    font-family: helvetica bold;
+    font-size: xx-large;
 }
 
+#footer {
+    text-align: center;
+    font-family: myriad pro;
+    font-color: grey;
+}
 #branding {
     margin-left: auto;
     margin-right: auto;
@@ -118,11 +134,19 @@ textarea {
     margin-bottom: 10px;
     width: 980px;
     height: 30px;
-    background-color: #339966;
-    display: block;    
+        
 }
 
-
+#grey {
+    margin-top: 200px;
+    margin-bottom: 200px;
+    margin-left: 150px;
+    margin-right: 150px;
+    float: inherit;
+    position: relative;
+    top: 20px;
+    bottom: 20px;
+}
 
 
 
