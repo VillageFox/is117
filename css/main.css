@@ -156,6 +156,11 @@ textarea {
     bottom: 20px;
 }
 
+#table1 > table > th {
+    background-color: #7f8c8d;
+    
+}
+
 #blockblue {
     float: left;
 }
@@ -196,7 +201,6 @@ textarea {
 }
 
 #cooling > h1 {
-    
     text-align: center;
     font-family: opensans semibold;
     color: #2980b9;
@@ -220,8 +224,38 @@ textarea {
     margin-right: 400px;
 }
     
+#about {
+    position: inherit;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 400px;
+    margin-bottom: 40px;
+    background-color: #eceeed;
+}
 
+#about > h1 {
+    text-align: center;
+    font-family: opensans semibold;
+    color: #2c2c2c;
+    font-size: 30px;
+    letter-spacing: 4px;
+    margin-left: 185px;
+    margin-right: 200px;
+}
 
+#about > p {
+    text-align: center;
+    font-family: opensans semibold;
+    color: #2c2c2c;
+    font-size: 14px;
+    margin-left: 100px;
+    margin-right: 200px;
+}
+
+#about > img {
+    margin-left: 100px;
+    margin-right: 100px;
+}
 
 /* ==========================================================================
    Helper classes
