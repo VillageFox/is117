@@ -164,10 +164,62 @@ textarea {
     float: left;
 }
 
+#heating {
+    margin-left: 200px;
+    margin-right: 200px;
+}
 
+#heating > h1 {
+    text-align: center;
+    font-family: opensans semibold;
+    color: #c0392b;
+    font-size: 30px;
+    letter-spacing: 4px;
+}
 
+#heating > p {
+    text-align: center;
+    font-family: opensans semibold;
+    color: #2c2c2c;
+    font-size: 14px;
+    
+}
 
+#cooling {
+    position: absolute;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    background-color: #ffffff;
+    
+}
 
+#cooling > h1 {
+    
+    text-align: center;
+    font-family: opensans semibold;
+    color: #2980b9;
+    font-size: 30px;
+    letter-spacing: 4px;
+    margin-left: 200px;
+    margin-right: 400px;
+}
+
+#cooling > p {
+    text-align: center;
+    font-family: opensans semibold;
+    color: #2c2c2c;
+    font-size: 14px;
+    margin-left: 200px;
+    margin-right: 400px;
+}
+
+#cooling > img {
+    margin-left: 200px;
+    margin-right: 400px;
+}
+    
 
 
 
