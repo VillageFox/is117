@@ -156,9 +156,15 @@ textarea {
     bottom: 20px;
 }
 
-#table1 > table > th {
+#table1 > table {
+    border: 0px;
+    padding: 5px;
+    background-color: #f7f7f7; 
+}
+
+#table1 > table > td {
     background-color: #7f8c8d;
-    
+    padding: 20px;
 }
 
 #blockblue {
